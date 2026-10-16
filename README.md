@@ -168,7 +168,7 @@ def main():
     print("Blender version:", bpy.app.version_string)
     bpy.ops.mesh.primitive_cube_add(location=(0, 0, 0))
     cube = bpy.context.object
-    cube.name = "MyDebugCube"
+    cube.name = "DebugCube"
     print("Created:", cube.name)
 
 if __name__ == "__main__":
