@@ -195,3 +195,4 @@ Your scripts **don't** import `debugpy`, because `tools/debug_attach.py` handles
 | F5 starts the wrong file | `${file}` is whatever editor tab is focused, so click into your script before pressing F5. |
 | Autocomplete is missing or wrong | Wrong interpreter selected (step 4), or `fake-bpy-module-X.Y` doesn't match your Blender version (step 2). |
 | `blender: command not found` in VS Code | Blender isn't on your PATH (step 1). Restart VS Code after changing PATH. |
+|`Variable ${file} can not be resolved. Please open an editor.`| No python script selected, select the python script you wish to debug.|
