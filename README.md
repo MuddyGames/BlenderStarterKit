@@ -4,6 +4,13 @@ Write Python scripts for Blender in VS Code, with autocomplete and full breakpoi
 
 Write plain `bpy` scripts in `scripts/`, open one, and press **F5**. Blender launches, VS Code attaches its debugger, and execution stops at your breakpoints.
 
+## TODOS
+
+- Selectable blender file for debugging
+- User testing and fixes
+- Exisiting project merge instructions
+- Integrate automation (make)
+
 ---
 
 ## How it fits together
