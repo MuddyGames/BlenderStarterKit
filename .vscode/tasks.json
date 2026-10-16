@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Blender: debug current script",
+            "type": "shell",
+            "command": "blender",
+            "args": [
+                "${workspaceFolder}/blend/starter.blend",
+                "--python", "${workspaceFolder}/tools/debug_attach.py",
+                "--python", "${file}"
+            ],
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "blender",
+                "pattern": { "regexp": "^__never_matches__$" },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "^Blender",
+                    "endsPattern": "Waiting for VS Code debugger"
+                }
+            }
+        },
+        {
+            "label": "Blender: run current script",
+            "type": "shell",
+            "command": "blender",
+            "args": ["${workspaceFolder}/blend/starter.blend", "--python", "${file}"],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "Blender: stop",
+            "type": "shell",
+            "command": "pkill -f '[d]ebug_attach.py' || true",
+            "problemMatcher": []
+        }
+    ]
+}

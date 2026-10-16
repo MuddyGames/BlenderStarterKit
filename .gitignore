@@ -1,0 +1,11 @@
+# Blender auto-backups
+*.blend1
+*.blend2
+
+# Renders, Exports
+output/*
+
+# Python
+__pycache__/
+*.pyc
+.venv/

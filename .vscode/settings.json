@@ -1,0 +1,3 @@
+{
+    "python.defaultInterpreterPath": "${env:HOME}/Projects/dev/blender-python-env/.venv/bin/python"
+}
