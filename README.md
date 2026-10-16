@@ -26,6 +26,7 @@ StarterKit/
 ├── blend/
 │   └── starter.blend       <= Debug Blender File, additional blender files go here
 ├── scripts/
+│   ├── hello_debug.py      <= Simple script to debug
 │   └── main.py             <= Blender Scripts go here
 └── README.md               <= StarterKit Readme
 ```
