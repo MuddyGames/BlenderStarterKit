@@ -1,4 +1,4 @@
-# Blender Python StarterKit
+# BlenderStarterKit Python Debug
 
 Write Python scripts for Blender in VS Code, with autocomplete and full breakpoint debugging.
 
@@ -28,7 +28,7 @@ StarterKit/
 ├── scripts/
 │   ├── hello_debug.py      <= Simple script to debug
 │   └── main.py             <= Blender Scripts go here
-└── README.md               <= StarterKit Readme
+└── README.md               <= BlenderStarterKit Readme
 ```
 
 ---
@@ -132,10 +132,10 @@ You should see a path under `~/.config/blender/X.Y/scripts/modules/`.
 
 ---
 
-## 4. Open the StarterKit in VS Code
+## 4. Open the BlenderStarterKit in VS Code
 
 ```bash
-cd ~/Projects/StarterKit
+cd ~/Projects/BlenderStarterKit
 code .
 ```
 
