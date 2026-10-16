@@ -8,12 +8,12 @@ Write plain `bpy` scripts in `scripts/`, open one, and press **F5**. Blender lau
 
 ## How it fits together
 
-- **Blender runs its own Python.** Blenden has its own interpreter. Visual Studio code uses uses a virtual environment for autocomplete. Anything your scripts import inside Blender (here, `debugpy`) has to be installed for *Blender's* Python.
+- **Blender runs its own Python.** Blenden has its own interpreter. Visual Studio code uses a virtual environment for autocomplete. Anything your scripts import inside Blender (here, `debugpy`) has to be installed for *Blender's* Python.
 - **VS Code uses the shared virtual environment.** That venv only gives VS Code autocomplete (`fake-bpy-module`) and a Python interpreter for the editor. It never runs your Blender code.
 - **Two `--python` scripts run in order.** `tools/debug_attach.py` starts the debugger and waits for VS Code. Then Blender runs whichever script you have open.
 
 ```
-StarterKit/
+BlenderStarterKit/
 ├── .vscode/
 │   ├── launch.json         <= "Debug current script in Blender" (F5)
 │   ├── settings.json       <= points VS Code at the shared venv
