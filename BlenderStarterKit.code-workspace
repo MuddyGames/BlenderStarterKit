@@ -1,0 +1,7 @@
+{
+    "folders": [
+        { "name": "Blender Scripts",   "path": "scripts" },
+        { "name": "Blender Files",     "path": "blend" },
+        { "name": "BlenderStarterKit", "path": "." }
+    ]
+}

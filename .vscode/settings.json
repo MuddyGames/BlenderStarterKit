@@ -1,6 +1,14 @@
 {
-	"python.defaultInterpreterPath": "${env:HOME}/Projects/dev/blender-python-env/.venv/bin/python",
-	"python.analysis.diagnosticSeverityOverrides": {
-		"reportMissingModuleSource": "none"
-	}
+    "python.defaultInterpreterPath": "${env:HOME}/Projects/dev/blender-python-env/.venv/bin/python",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "files.exclude": {
+        ".vscode": true,
+        "tools": true,
+        "blend": true,
+        "scripts": true,
+        "**/*.blend1": true,
+        "**/__pycache__": true
+    }
 }
