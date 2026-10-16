@@ -1,7 +1,8 @@
 {
     "folders": [
-        { "name": "Blender Scripts",   "path": "scripts" },
-        { "name": "Blender Files",     "path": "blend" },
-        { "name": "BlenderStarterKit", "path": "." }
+        { "name": "Blender Scripts",    "path": "scripts" },
+        { "name": "Blender Files",      "path": "blend" },
+        { "name": "Output Files",       "path": "output" },
+        { "name": "BlenderStarterKit",  "path": "." }
     ]
 }

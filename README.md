@@ -15,19 +15,19 @@ Write plain `bpy` scripts in `scripts/`, open one, and press **F5**. Blender lau
 ```
 StarterKit/
 ├── .vscode/
-│   ├── launch.json         ← "Debug current script in Blender" (F5)
-│   ├── settings.json       ← points VS Code at the shared venv
-│   └── tasks.json          ← starts / runs / stops Blender
+│   ├── launch.json         <= "Debug current script in Blender" (F5)
+│   ├── settings.json       <= points VS Code at the shared venv
+│   └── tasks.json          <= starts / runs / stops Blender
 ├── assets/
-│   └── README.txt          ← asset files for project
+│   └── README.txt          <= asset files for project
 ├── tools/
-│   ├── settings.json       ← points VS Code at the shared venv
-│   └── debug_attach.py     ← debug helper: do not edit
+│   ├── settings.json       <= points VS Code at the shared venv
+│   └── debug_attach.py     <= debug helper: do not edit
 ├── blend/
-│   └── starter.blend       ← Blender Files go here
+│   └── starter.blend       <= Debug Blender File, additional blender files go here
 ├── scripts/
-│   └── main.py             ← Blender Scripts go here
-└── README.md               ← Starter Readme
+│   └── main.py             <= Blender Scripts go here
+└── README.md               <= StarterKit Readme
 ```
 
 ---
